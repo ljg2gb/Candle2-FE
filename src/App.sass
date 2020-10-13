@@ -2,10 +2,25 @@
 @import '/styles/color'
 @import '/styles/sizes'
 
-body
-    padding: 0 2em
-    background-color: $red-0
 
 @media screen and ( max-width: $mobile )
     body
         background-color: #88e09e
+
+body
+    background-color: $red-1
+
+.nav
+    background-color: $red-0
+    padding: .5em 2em
+    display: flex
+    justify-content: space-between
+    align-items: center    
+    .nav-links
+        display: flex
+        .link
+            padding: 0 1em
+            color: $red-4
+            text-decoration: none
+            &:hover
+                color: $red-3

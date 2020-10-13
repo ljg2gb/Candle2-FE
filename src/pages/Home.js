@@ -1,10 +1,11 @@
 import React from 'react'
+import Nav from '../components/nav'
 import BirthdayList from '../components/birthdayList'
 
 export default function Home() {
     return(
         <div className="App">
-            <h3>Candle Two</h3>
+            <Nav/>
             <h2>Announcements</h2>
             <p>No birthdays this month</p>
             <BirthdayList/>
