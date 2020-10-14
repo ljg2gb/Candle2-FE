@@ -10,7 +10,7 @@ export default function Nav() {
                     <Link to="/" className="link" role="link">Home</Link>
                 </li>
                 <li>
-                    <Link to="/" className="link" role="link">Add Birthday</Link>
+                    <Link to="/newBirthday" className="link" role="link">Add Birthday</Link>
                 </li>
             </ul>
         </div>
