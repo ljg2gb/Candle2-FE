@@ -11,7 +11,7 @@ LS.navFixedItem_LINK = styled.div`
         font-weight: 800px;
         line-height: 1.5;
         text-decoration: none;
-        position: absolute;
+        position: fixed;
         right: 0px;
         bottom: 0px;
         padding: 0 .5em;
